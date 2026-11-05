@@ -22,7 +22,7 @@ The project is built on a custom-generated star schema designed for both Python 
 ### 1. Borrower Eligibility Matrix
 This scatter plot segments users based on their average days from the due date versus their credit limit utilization. It successfully isolates "Tier 1" prime borrowers who pay on time (negative average days from due date) and actively utilize their limits (near or above the 85% utilization target), categorizing them as ready for a 1.5x limit top-up. The visualization includes interactive hover data displaying granular borrower details, such as employment segment, current credit limit, and specific campaign tiering.
 
-![Borrower Eligibility Matrix](borrower_eligibility_matrix.jpg)
+![Borrower Eligibility Matrix](borrower_eligibility_matrix.png)
 
 ### 2. Tier 1 Incremental Credit Opportunity by Segment and Region
 This bar chart projects the potential portfolio growth by offering the targeted incremental credit lines (in KES) strictly to the Tier 1 prime borrowers. It breaks down the monetary opportunity across key employment segments—Agri-Vendor, Gig / Boda Operator, SME Trader, and Salaried Worker—and geographic regions. The analysis reveals that SME Traders in Nairobi represent the highest-value expansion target at 3.0M KES, followed by Salaried Workers in Nairobi at 1.9M KES.
